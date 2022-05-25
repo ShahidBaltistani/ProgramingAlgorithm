@@ -4,7 +4,12 @@
 
 # Project specific
 node_modules/*
-
+*.suo
+*.user
+_ReSharper.*
+bin
+obj
+packages
 # These are needed, however, they're generated so don't need/want to track
 css/app.css.map
 css/app.min.css
